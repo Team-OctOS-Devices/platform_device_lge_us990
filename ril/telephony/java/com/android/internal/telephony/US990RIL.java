@@ -31,19 +31,19 @@ import com.android.internal.telephony.uicc.IccCardApplicationStatus;
 import com.android.internal.telephony.uicc.IccCardStatus;
 
 /**
- * Custom Qualcomm RIL for LS990
+ * Custom Qualcomm RIL for US990
  *
  * {@hide}
  */
-public class LS990RIL extends LgeLteRIL implements CommandsInterface {
-    static final String LOG_TAG = "LS990RIL";
+public class US990RIL extends LgeLteRIL implements CommandsInterface {
+    static final String LOG_TAG = "US990RIL";
 
-    public LS990RIL(Context context, int preferredNetworkType,
+    public US990RIL(Context context, int preferredNetworkType,
             int cdmaSubscription, Integer instanceId) {
         super(context, preferredNetworkType, cdmaSubscription, instanceId);
     }
 
-    public LS990RIL(Context context, int networkMode, int cdmaSubscription) {
+    public US990RIL(Context context, int networkMode, int cdmaSubscription) {
         this(context, networkMode, cdmaSubscription, null);
     }
 

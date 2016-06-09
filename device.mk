@@ -35,6 +35,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     libnetcmdiface
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 # NFC packages
 PRODUCT_PACKAGES += \
     nfc.default \
